@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47434fb0-1054-44c7-9425-c48f5f2f14f3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/train_Transformer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HGTAN/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+              <folding>
+                <element signature="e#31#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HGTAN/temp_layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-831">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <element signature="e#45#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HGTAN/tri_attn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="e#40#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HGTAN/hyperedge_attn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HGTAN/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/load_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/test_tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1375">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4950">
+              <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[Info] The checkpoint file has been updated</find>
+      <find>Encoder</find>
+      <find>41.768</find>
+      <find>39.559</find>
+      <find>39.910</find>
+      <find>ParallelHGRU</find>
+      <find>39.391</find>
+      <find>print</find>
+      <find>40.</find>
+      <find>n_head</find>
+      <find>40</find>
+      <find>0.2240, -0.8478,  0.9234</find>
+      <find>exit</find>
+      <find>40.496</find>
+      <find>40.749</find>
+      <find>41.481</find>
+      <find>42.133</find>
+      <find>[Info] The checkpoint file has been updated.</find>
+      <find>40.799</find>
+      <find>41.586</find>
+      <find>40.912</find>
+      <find>- [Info] The checkpoint file has been updated.</find>
+      <find>environ</find>
+      <find>masked</find>
+      <find>masked_fill</find>
+      <find>mask</find>
+      <find>adj</find>
+      <find>transpose</find>
+      <find>F</find>
+      <find>F.</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/10days/2/test_result" />
+        <option value="$PROJECT_DIR$/5_days/1/para" />
+        <option value="$PROJECT_DIR$/5_days/1/test_result" />
+        <option value="$PROJECT_DIR$/5_days/2/para" />
+        <option value="$PROJECT_DIR$/5_days/2/test_predict" />
+        <option value="$PROJECT_DIR$/5_days/3/para" />
+        <option value="$PROJECT_DIR$/5_days/3/test_predict" />
+        <option value="$PROJECT_DIR$/5_days/4/para" />
+        <option value="$PROJECT_DIR$/5_days/4/test_result" />
+        <option value="$PROJECT_DIR$/5_days/5/para" />
+        <option value="$PROJECT_DIR$/5_days/5/test_predict" />
+        <option value="$PROJECT_DIR$/5_days/6/para" />
+        <option value="$PROJECT_DIR$/5_days/6/test_predict" />
+        <option value="$PROJECT_DIR$/20_days/para" />
+        <option value="$PROJECT_DIR$/20_days/test_result" />
+        <option value="$PROJECT_DIR$/20_days_2/para" />
+        <option value="$PROJECT_DIR$/20_days_2/test_result" />
+        <option value="$PROJECT_DIR$/20_days_3/para" />
+        <option value="$PROJECT_DIR$/20_days_3/test_result" />
+        <option value="$PROJECT_DIR$/20_days_4/para" />
+        <option value="$PROJECT_DIR$/20_days_4/test_predict" />
+        <option value="$PROJECT_DIR$/hyper_attention/fund_adj.py" />
+        <option value="$PROJECT_DIR$/20_days_6/para" />
+        <option value="$PROJECT_DIR$/training/test_Transformer.py" />
+        <option value="$PROJECT_DIR$/20_days_6/test_result" />
+        <option value="$PROJECT_DIR$/hyper_attention/layers_2.py" />
+        <option value="$PROJECT_DIR$/transformer/Models.py" />
+        <option value="$PROJECT_DIR$/transformer/SubLayers.py" />
+        <option value="$PROJECT_DIR$/transformer/__init__.py" />
+        <option value="$PROJECT_DIR$/../HGTAN_code/HGTAN/Models.py" />
+        <option value="$PROJECT_DIR$/HGTAN/__init__.py" />
+        <option value="$PROJECT_DIR$/HGTAN/TempLayers.py" />
+        <option value="$PROJECT_DIR$/hyper_attention/models.py" />
+        <option value="$PROJECT_DIR$/hyper_attention/hyper_attn.py" />
+        <option value="$PROJECT_DIR$/Tri-attention_network/models.py" />
+        <option value="$PROJECT_DIR$/training/try.py" />
+        <option value="$PROJECT_DIR$/Tri-attention_network/load_data.py" />
+        <option value="$PROJECT_DIR$/HGTAN/hyper_attn.py" />
+        <option value="$PROJECT_DIR$/HGTAN/HGAT.py" />
+        <option value="$PROJECT_DIR$/training/fund_adj.py" />
+        <option value="$PROJECT_DIR$/HGTAN/Models.py" />
+        <option value="$PROJECT_DIR$/HGTAN/models.py" />
+        <option value="$PROJECT_DIR$/HGTAN/temp_layers.py" />
+        <option value="$PROJECT_DIR$/HGTAN/layers.py" />
+        <option value="$PROJECT_DIR$/training/load_data.py" />
+        <option value="$PROJECT_DIR$/20_days_7/para" />
+        <option value="$PROJECT_DIR$/training/train_Transformer.py" />
+        <option value="$PROJECT_DIR$/training/tool.py" />
+        <option value="$PROJECT_DIR$/training/test_tool.py" />
+        <option value="$PROJECT_DIR$/HGTAN/hyperedge_attn.py" />
+        <option value="$PROJECT_DIR$/HGTAN/tri_attn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="30" />
+    <option name="width" value="1920" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HGTAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HGTAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/training" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HGTAN" />
+      <recent name="$PROJECT_DIR$/training" />
+      <recent name="$PROJECT_DIR$/20_days_4" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/10days" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/training" />
+      <recent name="$PROJECT_DIR$/20_days_3" />
+      <recent name="$PROJECT_DIR$/20_days_4" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/10_valid/3_begin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train_Transformer">
+    <configuration name="layers_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="transformer_stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hyper_attention" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hyper_attention/layers_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_Transformer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="transformer_stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/test_Transformer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_tool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="transformer_stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/test_tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_Transformer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="transformer_stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HGTAN_code/training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HGTAN_code/training/train_Transformer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_Transformer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="transformer_stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/train_Transformer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.layers_2" />
+      <item itemvalue="Python.test_Transformer" />
+      <item itemvalue="Python.test_tool" />
+      <item itemvalue="Python.train_Transformer (1)" />
+      <item itemvalue="Python.train_Transformer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_Transformer" />
+        <item itemvalue="Python.train_Transformer (1)" />
+        <item itemvalue="Python.test_Transformer" />
+        <item itemvalue="Python.layers_2" />
+        <item itemvalue="Python.test_tool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47434fb0-1054-44c7-9425-c48f5f2f14f3" name="Default Changelist" comment="" />
+      <created>1601601056521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601601056521</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1293" height="773" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17474186" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32915717" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21753986" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997722" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.32915717" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17588204" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32915717" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.309795" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997722" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/training/test_Transformer.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/5_days/4/test_result" />
+    <entry file="file://$PROJECT_DIR$/5_days/4/accuracy_loss.png" />
+    <entry file="file://$PROJECT_DIR$/5_days/3/accuracy_loss.png" />
+    <entry file="file://$PROJECT_DIR$/5_days/2/accuracy_loss.png" />
+    <entry file="file://$PROJECT_DIR$/5_days/5/para" />
+    <entry file="file://$PROJECT_DIR$/5_days/5/test_predict" />
+    <entry file="file://$PROJECT_DIR$/5_days/6/lstm+trans+HGAT3_5_valid1.valid.log" />
+    <entry file="file://$PROJECT_DIR$/5_days/6/para" />
+    <entry file="file://$PROJECT_DIR$/5_days/6/test_predict" />
+    <entry file="file://$PROJECT_DIR$/../../hats-master/hats-master/node_classification/src/main.py" />
+    <entry file="file://$PROJECT_DIR$/5_days/1/test_result" />
+    <entry file="file://$PROJECT_DIR$/20_days_2/lstm+trans+HGAT3_5_valid1.valid.log" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/conv.py" />
+    <entry file="file://$PROJECT_DIR$/10_valid/2/parameters" />
+    <entry file="file://$PROJECT_DIR$/20_days/test_result" />
+    <entry file="file://$PROJECT_DIR$/20_days_2/test_result" />
+    <entry file="file://$PROJECT_DIR$/20_days_3/test_result" />
+    <entry file="file://$PROJECT_DIR$/20_days_4/test_predict" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py37/lib/python3.7/site-packages/torch/__init__.pyi" />
+    <entry file="file://$PROJECT_DIR$/20_days_2/para" />
+    <entry file="file://$PROJECT_DIR$/20_days_4/para" />
+    <entry file="file://$PROJECT_DIR$/20_days_3/para" />
+    <entry file="file://$PROJECT_DIR$/20_days/para" />
+    <entry file="file://$PROJECT_DIR$/20_days_6/para" />
+    <entry file="file://$PROJECT_DIR$/training/test_Transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_days_6/test_result" />
+    <entry file="file://$PROJECT_DIR$/transformer/Layers.py" />
+    <entry file="file://$PROJECT_DIR$/transformer/Modules.py" />
+    <entry file="file://$PROJECT_DIR$/Net/Models.py" />
+    <entry file="file://$PROJECT_DIR$/training/try.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/load_data.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/pool.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/tool.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/Optim.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/ttest.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/utils.py" />
+    <entry file="file://$PROJECT_DIR$/Tri-attention_network/layers.py" />
+    <entry file="file://$PROJECT_DIR$/HGTAN/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/fund_adj.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/rnn.py" />
+    <entry file="file://$PROJECT_DIR$/20_days_7/lstm+trans+HGAT3_5_valid1.valid.log" />
+    <entry file="file://$PROJECT_DIR$/20_days_7/para" />
+    <entry file="file://$PROJECT_DIR$/training/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/test_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/train_Transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HGTAN/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#31#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HGTAN/temp_layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="e#45#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HGTAN/tri_attn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HGTAN/hyperedge_attn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HGTAN/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
