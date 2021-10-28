@@ -12,7 +12,7 @@ Predicting the future price trends of stocks is a challenging yet intriguing pro
 ## Dataset
 
 ### Historical Price Data
-We used a financial data API-https://tushare.pro to collect the historical price and relational data of stocks from China’s A-share market. We further performed a filtering step to eliminate those stocks that were traded on less than 98% of all trading days. This finally results in 758 stocks between 01/04/2013 and 12/31/2019.  
+We used a financial data API-https://tushare.pro to collect the historical price and relational data of stocks from China’s A-share market. We further performed a filtering step to eliminate those stocks that were traded on less than 98% of all trading days. This finally results in 758 stocks between 01/04/2013 and 12/31/2019.  You can download   * `result(758)_label.csv` file from the Google Drive link: https://drive.google.com/file/d/1T7OHfe8lOrv_fED545yArLDVj8sLVqP2/view?usp=sharing.
 
 ### Relation Data
 We considered the industry-belonging and fund-holding relationships of stocks. For the former, we grouped all stocks into 104 industry categories according to the Shenwan Industry Classification Standard. For the latter, we selected 61 mutual funds established before 2013 in the A-share market, and acquired the constituent stocks of each fund from the quarterly portfolio reports.  
