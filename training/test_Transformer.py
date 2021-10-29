@@ -68,15 +68,15 @@ def main():
     device = torch.device('cuda' if args.cuda else 'cpu')
 
     model = HGTAN(
-        args.length,
         rnn_unit=args.rnn_unit,
         n_hid=args.hidden,
+        n_class=args.n_class,
+        feature=args.feature,
         tgt_emb_prj_weight_sharing=args.proj_share_weight,
         d_k=args.d_k,
         d_v=args.d_v,
         d_model=args.d_model,
         d_word_vec=args.d_word_vec,
-
         n_head=args.n_head,
         dropout=args.dropout).to(device)
 
