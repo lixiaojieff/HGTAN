@@ -2,7 +2,7 @@ import argparse
 import numpy as np
 from training.load_data import load_EOD_data
 import torch
-from HGTAN.models import Transformer
+from HGTAN.models import HGTAN
 from HGTAN.Optim import ScheduledOptim
 # from training.tool import prepare_dataloaders, train
 from training.test_tool import prepare_dataloaders,train
@@ -67,7 +67,7 @@ def main():
     print(args)
     device = torch.device('cuda' if args.cuda else 'cpu')
 
-    model = Transformer(
+    model = HGTAN(
         args.length,
         rnn_unit=args.rnn_unit,
         n_hid=args.hidden,
